@@ -138,7 +138,7 @@ const Index = () => {
                 Блог
               </button>
               <Button size="sm" className="bg-gradient-to-r from-primary to-secondary hover:opacity-90">
-                Купить билет
+                Связаться с нами
               </Button>
             </div>
           </div>
@@ -162,7 +162,7 @@ const Index = () => {
                 onClick={() => scrollToSection('events')}
               >
                 <Icon name="Calendar" className="mr-2" size={20} />
-                Посмотреть афишу
+                Посмотреть события
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-8">
                 <Icon name="Play" className="mr-2" size={20} />
@@ -215,7 +215,7 @@ const Index = () => {
                 <CardContent>
                   <p className="text-muted-foreground mb-4">{event.description}</p>
                   <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90">
-                    Купить билет
+                    Узнать подробнее
                     <Icon name="ArrowRight" className="ml-2" size={16} />
                   </Button>
                 </CardContent>
